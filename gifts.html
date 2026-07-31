@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Your Gifts ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="container gifts">
+
+
+<h1>
+Choose your gifts ❤️
+</h1>
+
+
+<p>
+Three little surprises made only for you...
+</p>
+
+
+
+<div class="giftBox" onclick="openGift('letter.html')">
+
+<div class="box">
+🎁
+</div>
+
+<h3>
+💌 My Letter
+</h3>
+
+</div>
+
+
+
+<div class="giftBox" onclick="openGift('memories.html')">
+
+<div class="box">
+🎁
+</div>
+
+<h3>
+📸 Our Memories
+</h3>
+
+</div>
+
+
+
+<div class="giftBox" onclick="openGift('song.html')">
+
+<div class="box">
+🎁
+</div>
+
+<h3>
+🎵 Our Song
+</h3>
+
+</div>
+
+
+
+<div class="progress">
+
+<div id="giftProgress"></div>
+
+</div>
+
+
+</div>
+
+
+<script>
+
+let opened = 0;
+
+
+function openGift(page){
+
+opened++;
+
+
+document.getElementById("giftProgress").style.width =
+(opened*33)+"%";
+
+
+setTimeout(()=>{
+
+window.location.href = page;
+
+},500);
+
+
+}
+
+
+</script>
+
+
+</body>
+
+</html>
