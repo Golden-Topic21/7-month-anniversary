@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="style.css">
+
+<title>Secret Code ❤️</title>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Hey Nikoleta ❤️</h1>
+
+<p>
+
+I made something special just for you.
+
+</p>
+
+<p>
+
+Enter our secret code
+
+</p>
+
+<input
+id="code"
+type="password"
+placeholder="31-12">
+
+<br><br>
+
+<button onclick="checkCode()">
+
+Confirm ❤️
+
+</button>
+
+</div>
+
+<script>
+
+function checkCode(){
+
+let code=document.getElementById("code").value;
+
+if(code=="31-12"){
+
+window.location.href="gifts.html";
+
+}else{
+
+alert("Wrong secret code ❤️");
+
+}
+
+}
+
+</script>
+
+</body>
+
+</html>
