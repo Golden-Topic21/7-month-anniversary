@@ -1,0 +1,22 @@
+7-month-anniversary/
+│
+├── index.html
+├── style.css
+├── script.js
+├── code.html
+├── gifts.html
+├── letter.html
+├── memories.html
+├── song.html
+├── ending.html
+│
+├── images/
+│   ├── qr.png
+│   ├── photo1.jpg
+│   ├── photo2.jpg
+│   ├── photo3.jpg
+│   ├── boy.png
+│   └── girl.png
+│
+└── audio/
+    └── click.mp3
